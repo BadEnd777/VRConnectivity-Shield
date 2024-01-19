@@ -1,6 +1,15 @@
 # VRConnectivity Shield
 
+<div align="center">
+    <img src="https://goreportcard.com/badge/github.com/Onyx-Innovators/VRConnectivity-Shield" alt="Go Report Card">
+    <img src="https://img.shields.io/github/license/Onyx-Innovators/VRConnectivity-Shield" alt="License">
+    <img src="https://img.shields.io/github/v/release/Onyx-Innovators/VRConnectivity-Shield" alt="Release">
+</div>
+
 VRConnectivity Shield is a DNS blocking utility implemented in Go, designed to block specific hosts by responding to DNS requests with 0.0.0.0. This can be useful for preventing unwanted connections to analytics services, telemetry servers, etc.
+
+> [!NOTE]
+> This project is focused on blocking hosts related to VRChat. If you are looking for a more general purpose DNS blocking utility, check out [HostsMan](https://www.abelhadigital.com/hostsman/). It is a great tool for managing your hosts file.
 
 ## Usage
 
