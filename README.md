@@ -10,31 +10,11 @@ VRConnectivity Shield is a DNS blocking utility implemented in Go, designed to b
 
 ### Installation
 
-1. Clone the repository:
+To use VRConnectivity Shield, follow these simple steps:
 
-    ```bash
-    git clone https://github.com/Onyx-Innovators/VRConnectivity-Shield.git
-    ```
-
-2. Change into the project directory:
-
-    ```bash
-    cd VRConnectivity-Shield
-    ```
-
-3. Build the project:
-
-    ```bash
-    go build
-    ```
-
-4. Run the program as root:
-   - Double-click the executable file, or
-   - Run the executable from the command line:
-
-    ```bash
-    sudo ./VRConnectivity-Shield
-    ```
+1. **Download:** Obtain the executable file for your platform from the [Releases](https://github.com/Onyx-Innovators/VRConnectivity-Shield/releases) page.
+   
+2. **Run:** Execute the VRConnectivity-Shield.exe executable to start the DNS blocking utility.
 
 ### Configuration
 
