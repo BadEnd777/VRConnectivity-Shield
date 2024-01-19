@@ -1,0 +1,15 @@
+# Ignore compiled binaries and executables
+*.exe
+VRConnectivity-Shield
+
+# Ignore go generated files
+*.pb.go
+*.log
+
+# Ignore the Go Modules cache
+/go.sum
+/go.mod
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
