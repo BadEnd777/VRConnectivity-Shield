@@ -88,4 +88,6 @@ func main() {
 		log.Info("If it works, you should see a lot of \"Error pinging host\" messages.")
 		log.Info("Because the program blocks the servers, it will not be able to connect to them.")
 	}
+
+	select {}
 }
