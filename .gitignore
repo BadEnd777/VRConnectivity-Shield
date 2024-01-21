@@ -7,8 +7,8 @@ VRConnectivity-Shield
 *.log
 
 # Ignore the Go Modules cache
-/go.sum
-/go.mod
+go.sum
+go.mod
 
 # Ignore system and temporary files
 .DS_Store

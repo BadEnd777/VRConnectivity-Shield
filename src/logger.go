@@ -1,4 +1,4 @@
-package logger
+package main
 
 import (
 	"fmt"
@@ -46,7 +46,7 @@ func (l *Logger) Debug(message ...interface{}) {
 }
 
 func (l *Logger) Info(message ...interface{}) {
-	l.log(InfoLevel, color.New(color.FgBlue).SprintFunc(), message...)
+	l.log(InfoLevel, color.New(color.FgCyan).SprintFunc(), message...)
 }
 
 func (l *Logger) Warn(message ...interface{}) {
@@ -64,6 +64,13 @@ func (l *Logger) Fatal(message ...interface{}) {
 
 func (l *Logger) Success(message ...interface{}) {
 	l.log(SuccessLevel, color.New(color.FgGreen).SprintFunc(), message...)
+}
+
+func (l *Logger) Prompt(message string) string {
+	fmt.Printf("[%s] %s", time.Now().Format("15:04:05"), message)
+	var input string
+	fmt.Scanln(&input)
+	return input
 }
 
 func (l *Logger) SetEnableColors(enableColors bool) {
